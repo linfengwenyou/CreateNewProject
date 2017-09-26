@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		495054721F7A311200DB655E /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950544F1F7A311200DB655E /* UIColor+RGBValues.m */; };
-		495054731F7A311200DB655E /* LWSHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054551F7A311200DB655E /* LWSHighlightView.m */; };
-		495054741F7A311200DB655E /* HandInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054591F7A311200DB655E /* HandInVC.m */; };
-		495054751F7A311200DB655E /* HandInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4950545A1F7A311200DB655E /* HandInVC.xib */; };
-		495054761F7A311200DB655E /* HomeInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950545D1F7A311200DB655E /* HomeInfoCell.m */; };
-		495054771F7A311200DB655E /* HomeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4950545E1F7A311200DB655E /* HomeInfoCell.xib */; };
-		495054781F7A311200DB655E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054601F7A311200DB655E /* HomeVC.m */; };
-		495054791F7A311200DB655E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054611F7A311200DB655E /* HomeVC.xib */; };
-		4950547A1F7A311200DB655E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054641F7A311200DB655E /* MineVC.m */; };
-		4950547B1F7A311200DB655E /* MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054651F7A311200DB655E /* MineVC.xib */; };
-		4950547C1F7A311200DB655E /* LWSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054681F7A311200DB655E /* LWSBaseViewController.m */; };
-		4950547D1F7A311200DB655E /* LWSNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950546A1F7A311200DB655E /* LWSNavigationVC.m */; };
-		4950547E1F7A311200DB655E /* LWSTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950546C1F7A311200DB655E /* LWSTabBarVC.m */; };
-		4950547F1F7A311200DB655E /* TradeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950546F1F7A311200DB655E /* TradeVC.m */; };
-		495054801F7A311200DB655E /* TradeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054701F7A311200DB655E /* TradeVC.xib */; };
+		495054A11F7A385E00DB655E /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054841F7A385E00DB655E /* UIColor+RGBValues.m */; };
+		495054A21F7A385E00DB655E /* LWSHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054871F7A385E00DB655E /* LWSHighlightView.m */; };
+		495054A31F7A385E00DB655E /* HandInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950548B1F7A385E00DB655E /* HandInVC.m */; };
+		495054A41F7A385E00DB655E /* HandInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4950548C1F7A385E00DB655E /* HandInVC.xib */; };
+		495054A51F7A385E00DB655E /* HomeInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950548F1F7A385E00DB655E /* HomeInfoCell.m */; };
+		495054A61F7A385E00DB655E /* HomeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054901F7A385E00DB655E /* HomeInfoCell.xib */; };
+		495054A71F7A385E00DB655E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054921F7A385E00DB655E /* HomeVC.m */; };
+		495054A81F7A385E00DB655E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054931F7A385E00DB655E /* HomeVC.xib */; };
+		495054A91F7A385E00DB655E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054961F7A385E00DB655E /* MineVC.m */; };
+		495054AA1F7A385E00DB655E /* MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054971F7A385E00DB655E /* MineVC.xib */; };
+		495054AB1F7A385E00DB655E /* LWSNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950549A1F7A385E00DB655E /* LWSNavigationVC.m */; };
+		495054AC1F7A385E00DB655E /* LWSTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950549C1F7A385E00DB655E /* LWSTabBarVC.m */; };
+		495054AD1F7A385E00DB655E /* TradeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950549F1F7A385E00DB655E /* TradeVC.m */; };
+		495054AE1F7A385E00DB655E /* TradeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495054A01F7A385E00DB655E /* TradeVC.xib */; };
+		495054B11F7A391600DB655E /* LWSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495054AF1F7A391600DB655E /* LWSBaseViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -48,31 +48,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4950544E1F7A311200DB655E /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
-		4950544F1F7A311200DB655E /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
-		495054541F7A311200DB655E /* LWSHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSHighlightView.h; sourceTree = "<group>"; };
-		495054551F7A311200DB655E /* LWSHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSHighlightView.m; sourceTree = "<group>"; };
-		495054581F7A311200DB655E /* HandInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandInVC.h; sourceTree = "<group>"; };
-		495054591F7A311200DB655E /* HandInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandInVC.m; sourceTree = "<group>"; };
-		4950545A1F7A311200DB655E /* HandInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandInVC.xib; sourceTree = "<group>"; };
-		4950545C1F7A311200DB655E /* HomeInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeInfoCell.h; sourceTree = "<group>"; };
-		4950545D1F7A311200DB655E /* HomeInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeInfoCell.m; sourceTree = "<group>"; };
-		4950545E1F7A311200DB655E /* HomeInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeInfoCell.xib; sourceTree = "<group>"; };
-		4950545F1F7A311200DB655E /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
-		495054601F7A311200DB655E /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		495054611F7A311200DB655E /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		495054631F7A311200DB655E /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
-		495054641F7A311200DB655E /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
-		495054651F7A311200DB655E /* MineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineVC.xib; sourceTree = "<group>"; };
-		495054671F7A311200DB655E /* LWSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSBaseViewController.h; sourceTree = "<group>"; };
-		495054681F7A311200DB655E /* LWSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSBaseViewController.m; sourceTree = "<group>"; };
-		495054691F7A311200DB655E /* LWSNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSNavigationVC.h; sourceTree = "<group>"; };
-		4950546A1F7A311200DB655E /* LWSNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSNavigationVC.m; sourceTree = "<group>"; };
-		4950546B1F7A311200DB655E /* LWSTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSTabBarVC.h; sourceTree = "<group>"; };
-		4950546C1F7A311200DB655E /* LWSTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSTabBarVC.m; sourceTree = "<group>"; };
-		4950546E1F7A311200DB655E /* TradeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeVC.h; sourceTree = "<group>"; };
-		4950546F1F7A311200DB655E /* TradeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeVC.m; sourceTree = "<group>"; };
-		495054701F7A311200DB655E /* TradeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradeVC.xib; sourceTree = "<group>"; };
+		495054831F7A385E00DB655E /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
+		495054841F7A385E00DB655E /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
+		495054861F7A385E00DB655E /* LWSHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSHighlightView.h; sourceTree = "<group>"; };
+		495054871F7A385E00DB655E /* LWSHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSHighlightView.m; sourceTree = "<group>"; };
+		4950548A1F7A385E00DB655E /* HandInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandInVC.h; sourceTree = "<group>"; };
+		4950548B1F7A385E00DB655E /* HandInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandInVC.m; sourceTree = "<group>"; };
+		4950548C1F7A385E00DB655E /* HandInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandInVC.xib; sourceTree = "<group>"; };
+		4950548E1F7A385E00DB655E /* HomeInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeInfoCell.h; sourceTree = "<group>"; };
+		4950548F1F7A385E00DB655E /* HomeInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeInfoCell.m; sourceTree = "<group>"; };
+		495054901F7A385E00DB655E /* HomeInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeInfoCell.xib; sourceTree = "<group>"; };
+		495054911F7A385E00DB655E /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		495054921F7A385E00DB655E /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		495054931F7A385E00DB655E /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		495054951F7A385E00DB655E /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		495054961F7A385E00DB655E /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		495054971F7A385E00DB655E /* MineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineVC.xib; sourceTree = "<group>"; };
+		495054991F7A385E00DB655E /* LWSNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSNavigationVC.h; sourceTree = "<group>"; };
+		4950549A1F7A385E00DB655E /* LWSNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSNavigationVC.m; sourceTree = "<group>"; };
+		4950549B1F7A385E00DB655E /* LWSTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSTabBarVC.h; sourceTree = "<group>"; };
+		4950549C1F7A385E00DB655E /* LWSTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSTabBarVC.m; sourceTree = "<group>"; };
+		4950549E1F7A385E00DB655E /* TradeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeVC.h; sourceTree = "<group>"; };
+		4950549F1F7A385E00DB655E /* TradeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeVC.m; sourceTree = "<group>"; };
+		495054A01F7A385E00DB655E /* TradeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradeVC.xib; sourceTree = "<group>"; };
+		495054AF1F7A391600DB655E /* LWSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSBaseViewController.m; sourceTree = "<group>"; };
+		495054B01F7A391600DB655E /* LWSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSBaseViewController.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PROJECT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,128 +117,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4950544C1F7A311200DB655E /* Public */ = {
+		495054811F7A385E00DB655E /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				4950544D1F7A311200DB655E /* Categories */,
-				495054501F7A311200DB655E /* Definations */,
-				495054511F7A311200DB655E /* Tools */,
+				495054821F7A385E00DB655E /* Categories */,
 			);
 			path = Public;
 			sourceTree = "<group>";
 		};
-		4950544D1F7A311200DB655E /* Categories */ = {
+		495054821F7A385E00DB655E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				4950544E1F7A311200DB655E /* UIColor+RGBValues.h */,
-				4950544F1F7A311200DB655E /* UIColor+RGBValues.m */,
+				495054831F7A385E00DB655E /* UIColor+RGBValues.h */,
+				495054841F7A385E00DB655E /* UIColor+RGBValues.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		495054501F7A311200DB655E /* Definations */ = {
+		495054851F7A385E00DB655E /* ShareUI */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Definations;
-			sourceTree = "<group>";
-		};
-		495054511F7A311200DB655E /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		495054521F7A311200DB655E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		495054531F7A311200DB655E /* ShareUI */ = {
-			isa = PBXGroup;
-			children = (
-				495054541F7A311200DB655E /* LWSHighlightView.h */,
-				495054551F7A311200DB655E /* LWSHighlightView.m */,
+				495054861F7A385E00DB655E /* LWSHighlightView.h */,
+				495054871F7A385E00DB655E /* LWSHighlightView.m */,
 			);
 			path = ShareUI;
 			sourceTree = "<group>";
 		};
-		495054561F7A311200DB655E /* ViewController */ = {
+		495054881F7A385E00DB655E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				495054571F7A311200DB655E /* HandIn */,
-				4950545B1F7A311200DB655E /* Home */,
-				495054621F7A311200DB655E /* Mine */,
-				495054661F7A311200DB655E /* RootVC */,
-				4950546D1F7A311200DB655E /* Trade */,
+				495054891F7A385E00DB655E /* HandIn */,
+				4950548D1F7A385E00DB655E /* Home */,
+				495054941F7A385E00DB655E /* Mine */,
+				495054981F7A385E00DB655E /* RootVC */,
+				4950549D1F7A385E00DB655E /* Trade */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		495054571F7A311200DB655E /* HandIn */ = {
+		495054891F7A385E00DB655E /* HandIn */ = {
 			isa = PBXGroup;
 			children = (
-				495054581F7A311200DB655E /* HandInVC.h */,
-				495054591F7A311200DB655E /* HandInVC.m */,
-				4950545A1F7A311200DB655E /* HandInVC.xib */,
+				4950548A1F7A385E00DB655E /* HandInVC.h */,
+				4950548B1F7A385E00DB655E /* HandInVC.m */,
+				4950548C1F7A385E00DB655E /* HandInVC.xib */,
 			);
 			path = HandIn;
 			sourceTree = "<group>";
 		};
-		4950545B1F7A311200DB655E /* Home */ = {
+		4950548D1F7A385E00DB655E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				4950545C1F7A311200DB655E /* HomeInfoCell.h */,
-				4950545D1F7A311200DB655E /* HomeInfoCell.m */,
-				4950545E1F7A311200DB655E /* HomeInfoCell.xib */,
-				4950545F1F7A311200DB655E /* HomeVC.h */,
-				495054601F7A311200DB655E /* HomeVC.m */,
-				495054611F7A311200DB655E /* HomeVC.xib */,
+				4950548E1F7A385E00DB655E /* HomeInfoCell.h */,
+				4950548F1F7A385E00DB655E /* HomeInfoCell.m */,
+				495054901F7A385E00DB655E /* HomeInfoCell.xib */,
+				495054911F7A385E00DB655E /* HomeVC.h */,
+				495054921F7A385E00DB655E /* HomeVC.m */,
+				495054931F7A385E00DB655E /* HomeVC.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		495054621F7A311200DB655E /* Mine */ = {
+		495054941F7A385E00DB655E /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				495054631F7A311200DB655E /* MineVC.h */,
-				495054641F7A311200DB655E /* MineVC.m */,
-				495054651F7A311200DB655E /* MineVC.xib */,
+				495054951F7A385E00DB655E /* MineVC.h */,
+				495054961F7A385E00DB655E /* MineVC.m */,
+				495054971F7A385E00DB655E /* MineVC.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
 		};
-		495054661F7A311200DB655E /* RootVC */ = {
+		495054981F7A385E00DB655E /* RootVC */ = {
 			isa = PBXGroup;
 			children = (
-				495054671F7A311200DB655E /* LWSBaseViewController.h */,
-				495054681F7A311200DB655E /* LWSBaseViewController.m */,
-				495054691F7A311200DB655E /* LWSNavigationVC.h */,
-				4950546A1F7A311200DB655E /* LWSNavigationVC.m */,
-				4950546B1F7A311200DB655E /* LWSTabBarVC.h */,
-				4950546C1F7A311200DB655E /* LWSTabBarVC.m */,
+				495054AF1F7A391600DB655E /* LWSBaseViewController.m */,
+				495054B01F7A391600DB655E /* LWSBaseViewController.h */,
+				495054991F7A385E00DB655E /* LWSNavigationVC.h */,
+				4950549A1F7A385E00DB655E /* LWSNavigationVC.m */,
+				4950549B1F7A385E00DB655E /* LWSTabBarVC.h */,
+				4950549C1F7A385E00DB655E /* LWSTabBarVC.m */,
 			);
 			path = RootVC;
 			sourceTree = "<group>";
 		};
-		4950546D1F7A311200DB655E /* Trade */ = {
+		4950549D1F7A385E00DB655E /* Trade */ = {
 			isa = PBXGroup;
 			children = (
-				4950546E1F7A311200DB655E /* TradeVC.h */,
-				4950546F1F7A311200DB655E /* TradeVC.m */,
-				495054701F7A311200DB655E /* TradeVC.xib */,
+				4950549E1F7A385E00DB655E /* TradeVC.h */,
+				4950549F1F7A385E00DB655E /* TradeVC.m */,
+				495054A01F7A385E00DB655E /* TradeVC.xib */,
 			);
 			path = Trade;
-			sourceTree = "<group>";
-		};
-		495054711F7A311200DB655E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -275,11 +245,9 @@
 		6003F593195388D20070C39A /* Example for PROJECT */ = {
 			isa = PBXGroup;
 			children = (
-				4950544C1F7A311200DB655E /* Public */,
-				495054521F7A311200DB655E /* Resources */,
-				495054531F7A311200DB655E /* ShareUI */,
-				495054561F7A311200DB655E /* ViewController */,
-				495054711F7A311200DB655E /* ViewModel */,
+				495054811F7A385E00DB655E /* Public */,
+				495054851F7A385E00DB655E /* ShareUI */,
+				495054881F7A385E00DB655E /* ViewController */,
 				6003F59C195388D20070C39A /* CPDAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -404,14 +372,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495054771F7A311200DB655E /* HomeInfoCell.xib in Resources */,
+				495054A61F7A385E00DB655E /* HomeInfoCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				495054801F7A311200DB655E /* TradeVC.xib in Resources */,
-				4950547B1F7A311200DB655E /* MineVC.xib in Resources */,
-				495054751F7A311200DB655E /* HandInVC.xib in Resources */,
-				495054791F7A311200DB655E /* HomeVC.xib in Resources */,
+				495054AE1F7A385E00DB655E /* TradeVC.xib in Resources */,
+				495054AA1F7A385E00DB655E /* MineVC.xib in Resources */,
+				495054A41F7A385E00DB655E /* HandInVC.xib in Resources */,
+				495054A81F7A385E00DB655E /* HomeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,17 +399,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
-				495054731F7A311200DB655E /* LWSHighlightView.m in Sources */,
-				495054741F7A311200DB655E /* HandInVC.m in Sources */,
-				4950547A1F7A311200DB655E /* MineVC.m in Sources */,
-				4950547C1F7A311200DB655E /* LWSBaseViewController.m in Sources */,
-				495054761F7A311200DB655E /* HomeInfoCell.m in Sources */,
-				4950547F1F7A311200DB655E /* TradeVC.m in Sources */,
-				495054721F7A311200DB655E /* UIColor+RGBValues.m in Sources */,
-				4950547D1F7A311200DB655E /* LWSNavigationVC.m in Sources */,
-				495054781F7A311200DB655E /* HomeVC.m in Sources */,
+				495054A21F7A385E00DB655E /* LWSHighlightView.m in Sources */,
+				495054A31F7A385E00DB655E /* HandInVC.m in Sources */,
+				495054AB1F7A385E00DB655E /* LWSNavigationVC.m in Sources */,
+				495054A91F7A385E00DB655E /* MineVC.m in Sources */,
+				495054A51F7A385E00DB655E /* HomeInfoCell.m in Sources */,
+				495054A11F7A385E00DB655E /* UIColor+RGBValues.m in Sources */,
+				495054A71F7A385E00DB655E /* HomeVC.m in Sources */,
+				495054AC1F7A385E00DB655E /* LWSTabBarVC.m in Sources */,
+				495054AD1F7A385E00DB655E /* TradeVC.m in Sources */,
+				495054B11F7A391600DB655E /* LWSBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4950547E1F7A311200DB655E /* LWSTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

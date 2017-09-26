@@ -14,7 +14,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC">
             <connections>
                 <outlet property="aboutView" destination="Oen-RO-gCU" id="rfO-qU-nCm"/>
-                <outlet property="autoBanner" destination="R4H-jF-dyG" id="CWL-yG-CjS"/>
                 <outlet property="contactView" destination="8Nw-Lq-vmB" id="omz-GQ-T5G"/>
                 <outlet property="guideView" destination="yDq-dT-sAO" id="6fI-gK-Akh"/>
                 <outlet property="tableView" destination="WwV-xI-6pF" id="Heg-fs-HbO"/>
@@ -50,7 +49,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="378"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4H-jF-dyG" customClass="SDCycleScrollView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4H-jF-dyG">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>

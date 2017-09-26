@@ -75,6 +75,7 @@
     self.viewControllers = @[navi1,navi2,navi3,navi4];
 }
 
+#pragma mark - 配置TabBar背景等信息
 - (void)configAppearence
 {
     self.tabBar.translucent = NO;

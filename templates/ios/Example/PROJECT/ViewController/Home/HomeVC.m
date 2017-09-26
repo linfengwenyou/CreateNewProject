@@ -7,7 +7,7 @@
 //
 
 #import "HomeVC.h"
-#import <SDCycleScrollView.h>
+//#import <SDCycleScrollView.h>
 #import "LWSHighlightView.h"
 
 @interface HomeVC ()<UITableViewDelegate,UITableViewDataSource>
@@ -16,7 +16,7 @@
 
 @property (strong, nonatomic) IBOutlet UIView *tableViewHeaderView;
 
-@property (weak, nonatomic) IBOutlet SDCycleScrollView *autoBanner;
+//@property (weak, nonatomic) IBOutlet SDCycleScrollView *autoBanner;
 
 
 @property (weak, nonatomic) IBOutlet LWSHighlightView *tradeView;
@@ -50,8 +50,8 @@
 
 - (void)initData
 {
-    self.autoBanner.imageURLStringsGroup = @[@"http://fyyh.ucsmy.com/upload/1502162267465.png",
-                                             @"http://fyyh.ucsmy.com/upload/1500971263748.png"];
+//    self.autoBanner.imageURLStringsGroup = @[@"http://fyyh.ucsmy.com/upload/1502162267465.png",
+//                                             @"http://fyyh.ucsmy.com/upload/1500971263748.png"];
 
 }
 

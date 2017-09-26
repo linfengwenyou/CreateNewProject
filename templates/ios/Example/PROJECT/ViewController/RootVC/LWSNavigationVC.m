@@ -27,12 +27,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self configAppearence];
+}
+
+#pragma mark - 配置背景展示信息
+- (void)configAppearence
+{
     self.navigationBar.barTintColor = LWSRGBColor(33, 33, 36);
     self.navigationBar.translucent = NO;
     
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
