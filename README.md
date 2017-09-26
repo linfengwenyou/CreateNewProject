@@ -1,26 +1,71 @@
-pod-template
-============
+### 使用方法
 
-An opinionated template for creating a Pod with the following features:
+自己创建工程测试：
 
-- Git as the source control management system
-- Clean folder structure
-- Project generation
-- MIT license
-- Testing as a standard
-- Turnkey access to Travis CI
-- Also supports Carthage
+```
+// 终端上执行
+pod lib create "MyFirstProject" --template-url=https://github.com/linfengwenyou/CreateNewProject.git
+```
 
-## Getting started
 
-There are two reasons for wanting to work on this template, making your own or improving the one for everyone's. In both cases you will want to work with the ruby classes inside the `setup` folder, and the example base template that it works on from inside `template/ios/`. 
 
-## Best practices
+以上配置完成后还是需要自己去从工程中把代码拉出来，构建文件夹。这个可以用脚本来实现。
 
-The command `pod lib create` aims to be ran along with this guide: http://guides.cocoapods.org/making/using-pod-lib-create.html so any changes of flow should be updated there also.
+```
+#!/bin/bash
+TEMP=$(cd `dirname $0`;pwd)
+echo $TEMP
+tmp='var/tmp'
+cd /
+cd $tmp
 
-It is open to communal input, but adding new features, or new ideas are probably better off being discussed in an issue first. In general we try to think if an average Xcode user is going to use this feature or not, if it's unlikely is it a _very strongly_ encouraged best practice ( ala testing / CI. ) If it's something useful for saving a few minutes every deploy, or isn't easily documented in the guide it is likely to be denied in order to keep this project as simple as possible.
+enterProjName()
+{
+	flag=0
+	while [[ $flag != 1 ]]; do
+		read -p "请输入工程名称：" ProjName
+		len=${#ProjName}
+		if [ $len -lt 3 ]; then
+			echo "请输入长度大于3的工程名称："
+			flag=0
+		else
+			flag=1
+		fi
+	done
+}
 
-## Requirements:
+createProject()
+{
+	project_path=$TEMP'/'$ProjName
+	if [ ! -e project_path ]; then
+		echo "正在创建工程>>>>>>>>"
+		rm -rf $tmp'/'$ProjName'/'
+		pod lib create $ProjName --template-url=https://github.com/linfengwenyou/CreateNewProject.git
+		cd /
+		cp -r -f $tmp'/'$ProjName'/Example/' $project_path
+		rm -rf $tmp'/'$ProjName'/'
+		cd $project_path
+		echo "创建工程完毕。正在打开>>>>>>>"
+		open $ProjName'.xcworkspace'
+	else
+		echo "当前工程已存在，请更换名称重新创建"
+		enterProjName
+		createProject
+	fi
+}
 
-- CocoaPods 1.0.0+
+enterProjName
+createProject
+```
+
+
+
+#### 坑
+
+1. 使用第三方导入方式
+
+```
+#import <XXXX/XXXX.h>		// 之前这种导入方式可以，现在不行，需要使用下面的
+#import "XXXX.h"
+```
+
