@@ -70,14 +70,14 @@ module Pod
     def run
       @message_bank.welcome_message
 
-    framework = "ObjC"#self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
-      case framework
-        when :swift
-          ConfigureSwift.perform(configurator: self)
+#    framework = self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
+#      case framework
+#        when :swift
+#          ConfigureSwift.perform(configurator: self)
 
-        when :objc
-          ConfigureIOS.perform(configurator: self)
-      end
+#        when :objc
+        ConfigureIOS.perform(configurator: self)
+#      end
 
       replace_variables_in_files
       clean_template_files
