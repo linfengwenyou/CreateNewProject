@@ -41,22 +41,6 @@
     MineVC *vc4 = [MineVC defaultViewController];
     
     
-//    LWSNavigationVC *navi1 = [[LWSNavigationVC alloc] initWithRootViewController:vc1];
-//    [navi1 configTabItemWithTitle:@"首页" normalImage:[UIImage imageNamed:@"tab_home_no.png"] selectedImage:[UIImage imageNamed:@"tab_home_sele.png"] tag:1];
-//    
-//    LWSNavigationVC *navi2 = [[LWSNavigationVC alloc] initWithRootViewController:vc2];
-//    [navi2 configTabItemWithTitle:@"交易" normalImage:[UIImage imageNamed:@"tab_trade_no.png"] selectedImage:[UIImage imageNamed:@"tab_trade_sele.png"] tag:2];
-//    
-//    LWSNavigationVC *navi3 = [[LWSNavigationVC alloc] initWithRootViewController:vc3];
-//    [navi3 configTabItemWithTitle:@"持仓" normalImage:[UIImage imageNamed:@"tab_handin_no.png"] selectedImage:[UIImage imageNamed:@"tab_handin_sele.png"] tag:3];
-//    
-//    LWSNavigationVC *navi4 = [[LWSNavigationVC alloc] initWithRootViewController:vc4];
-//    [navi4 configTabItemWithTitle:@"我的" normalImage:[UIImage imageNamed:@"tab_mine_no.png"] selectedImage:[UIImage imageNamed:@"tab_mine_no.png"] tag:4];
-    
-    
-#warning lius 测试用
-    
-    
     LWSNavigationVC *navi1 = [[LWSNavigationVC alloc] initWithRootViewController:vc1];
     [navi1 configTabItemWithTitle:@"首叶" normalImage:[UIImage imageNamed:@"tab_home_no.png"] selectedImage:[UIImage imageNamed:@"tab_home_sele.png"] tag:1];
     
@@ -79,8 +63,11 @@
 - (void)configAppearence
 {
     self.tabBar.translucent = NO;
-    self.tabBar.barTintColor = LWSRGBColor(33, 33, 36);
-    self.tabBar.tintColor = LWSRGBColor(203, 166, 100);
+    // 设置bar的背景色
+    self.tabBar.barTintColor = [UIColor whiteColor];
+    
+    // 设置选中时图片文字的渲染颜色
+    self.tabBar.tintColor = [UIColor blackColor];
 }
 
 - (void)viewDidLoad {
