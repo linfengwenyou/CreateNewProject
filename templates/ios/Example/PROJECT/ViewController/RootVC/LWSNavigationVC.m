@@ -39,6 +39,7 @@
 //    self.navigationBar.translucent = NO;
     // 标题颜色设置为白色，如果背景为深色
 //    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.navigationBar.barTintColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
