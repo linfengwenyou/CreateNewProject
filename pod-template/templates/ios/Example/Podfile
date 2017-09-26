@@ -1,0 +1,12 @@
+use_frameworks!
+
+target '${POD_NAME}' do
+  pod 'SDCycleScrollView','~> 1.66'
+
+# target '${POD_NAME}_Tests' do
+#   inherit! :search_paths
+#   pod 'SDCycleScrollView','~> 1.66'
+
+#    ${INCLUDED_PODS}
+#  end
+end
